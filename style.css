@@ -88,9 +88,19 @@ nav ul li a {
 }
 
 .scroll-text {
-    margin-top: 30px;
-    font-size: 1em;
-    letter-spacing: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Garante que o elemento ocupe toda a altura da tela */
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: white;
+    letter-spacing: 20px;
 }
 
 main{
